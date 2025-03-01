@@ -1,0 +1,93 @@
+@media only screen and (max-width:576px) {
+
+
+    body{
+        overflow-x: hidden !important;
+    }
+    .navbar{
+        display: none !important;
+    }
+    .mono-nav{
+        display: flex;
+    }
+    button{
+        height: 7vw;
+        width: 20vw;
+        font-size: 2.5vw !important;
+    }
+
+    /* main section */
+
+    .main-sec{
+        height: 50vh;
+    }
+    .main-sec .col-lg-6 span:first-child{
+        font-size: 4vw;
+    }
+    .main-span2{
+        font-size: 2.8vw !important;
+    }
+    .main-sec .col-lg-6 h1{
+        font-size: 7vw !important;
+    }
+
+
+    /* second sec */
+
+    .sec-sec{
+        height: 100vh;
+    }
+    .sec-img{
+        width: 100%;
+    }
+    .sec-sec .row .col-lg-7 span{
+        font-size: 5vw;
+    }
+    .sec-sec .row .col-lg-7 h3{
+        font-size:10vw;
+    }
+    .sec-box{
+        height: 30%;
+    }
+    .sec-box ul li span{
+        font-size: 3.5vw !important;
+    }
+    .sec-box ul li span i{
+        font-size: 2.5vw !important;
+    }
+
+
+    /* third section */
+
+    .t-sec{
+        height: 180vh;
+    }
+    .t-sec .container{
+    }
+    .t-sec .row1{
+        height: 6% !important;
+    }
+    .t-sec .row1 span{
+        font-size: 3vw !important;
+    }
+    .t-sec .row1 h3{
+        font-size: 7vw !important;
+    }
+    .t-sec .row2{
+        height: 47% !important;
+    }
+    .t-sec .row3{
+        height: 47% !important;
+    }
+    .t-sec .row2 .col-lg-4{
+        padding: 10px !important;
+    }
+    .t-sec .row3 .col-lg-4{
+        padding: 10px !important;
+    }
+    .t-card i{
+        font-size: 10vw;
+    }
+
+
+}
